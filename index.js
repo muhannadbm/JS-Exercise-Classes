@@ -92,7 +92,7 @@ class Airplane {
         return `I ran out of fuel at ${this.odometer} miles!`;
       }
       else{
-        this.odometer = this.odometer + distance;
+        this.odometer = distance;
         this.tank = this.tank - distance / this.milesPerGallon;
       }
     }
